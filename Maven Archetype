@@ -1,0 +1,10 @@
+mvn -B archetype:generate 
+    -D archetypeGroupId=com.adobe.aem 
+    -D archetypeArtifactId=aem-project-archetype 
+    -D archetypeVersion=26 
+    -D appTitle="WKND Sites Project" 
+    -D appId="wknd" 
+    -D groupId="com.adobe.aem.guides.wknd" 
+    -D artifactId="aem-guides-wknd" 
+    -D version="1.1.0-SNAPSHOT" 
+    -D aemVersion="cloud
